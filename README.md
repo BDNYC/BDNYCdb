@@ -6,6 +6,8 @@ To install, just do:
 
 ```pip install BDNYCdb```
 
+Current version: BDNYCv1.0 [(DOI)](http://dx.doi.org/10.5281/zenodo.45169)
+
 ## Using the database
 
 The BDNYC Database is a binary SQL file with a .db extension which can be accessed in many ways. 
