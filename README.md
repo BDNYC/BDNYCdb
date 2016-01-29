@@ -14,7 +14,7 @@ The BDNYC Database is a binary SQL file with a .db extension which can be access
 
 However, we recommend you get the most out of your astronomy SQL databases via Python with [astrodbkit](https://github.com/BDNYC/astrodbkit.git).
 
-Install the package and just do:
+Here is how you would load the database using [astrodbkit](https://github.com/BDNYC/astrodbkit.git):
 
 ```
 from astrodbkit import astrodb
@@ -23,6 +23,6 @@ db = astrodb.get_db('/path/to/BDNYCv1.0.db')
 
 ## Contributing your datasets
 
-To contribute to this public repository, just fork this repo, add your data using [astrodbkit](https://github.com/BDNYC/astrodbkit.git), and issue a pull request!
+To contribute to this public repository, fork this repo, add your data using [astrodbkit](https://github.com/BDNYC/astrodbkit.git), and issue a pull request!
 
 If you are adding spectra, we require the files to be hosted by a public online academic library or similarly long-lived data or research repository. All data in the current version are hosted by the [CUNY Academic Works](http://academicworks.cuny.edu).
