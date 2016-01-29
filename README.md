@@ -23,6 +23,6 @@ db = astrodb.get_db('/path/to/BDNYCv1.0.db')
 
 ## Contributing your datasets
 
-To contribute to this public repository, fork this repo, add your data using [astrodbkit](https://github.com/BDNYC/astrodbkit.git), and issue a pull request!
+To contribute to this public repository, fork this repo, add your data using [astrodbkit](https://github.com/BDNYC/astrodbkit.git), and issue a pull request.
 
-If you are adding spectra, we require the files to be hosted by a public online academic library or similarly long-lived data or research repository. All data in the current version are hosted by the [CUNY Academic Works](http://academicworks.cuny.edu).
+If you are adding spectra, we require the files to be hosted by a public online academic library or similarly long-lived data or research repository. All data in the current version are hosted by the [CUNY Academic Works](http://academicworks.cuny.edu). Please get in touch if you have any problems identifying a home for your spectra.
