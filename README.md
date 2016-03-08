@@ -18,7 +18,7 @@ Here is how you would load the database using [astrodbkit](https://github.com/BD
 
 ```
 from astrodbkit import astrodb
-db = astrodb.get_db('/path/to/BDNYCv1.0.db')
+db = astrodb.Database('/path/to/BDNYCv1.0.db')
 ```
 
 ## Contributing your datasets
