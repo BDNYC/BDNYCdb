@@ -21,6 +21,12 @@ from astrodbkit import astrodb
 db = astrodb.Database('/path/to/bdnyc_database.db')
 ```
 
+Alternatively, the database can be created from the individual ascii tables (in tabledata/) by supplying the schema file to astrodbkit:
+```
+from astrodbkit import astrodb
+db = astrodb.Database('bdnyc_database.sql', directory='tabledata')
+```
+
 ## Contributing your datasets
 
 To contribute to this public repository, fork this repo, add your data using [astrodbkit](https://github.com/BDNYC/astrodbkit.git), and issue a pull request.
