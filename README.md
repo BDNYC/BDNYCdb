@@ -18,7 +18,13 @@ Here is how you would load the database using [astrodbkit](https://github.com/BD
 
 ```
 from astrodbkit import astrodb
-db = astrodb.Database('/path/to/BDNYCv1.0.db')
+db = astrodb.Database('/path/to/bdnyc_database.db')
+```
+
+Alternatively, the database can be created from the individual ascii tables (in tabledata/) by supplying the schema file to astrodbkit:
+```
+from astrodbkit import astrodb
+db = astrodb.Database('bdnyc_database.sql', directory='tabledata')
 ```
 
 ## Contributing your datasets
