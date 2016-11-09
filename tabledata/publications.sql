@@ -267,7 +267,7 @@ INSERT INTO "publications" VALUES(267,'2001AJ....122.1989W','Wils01','10.1086/32
 INSERT INTO "publications" VALUES(268,'2003IAUS..211..197W','Wils03b',NULL,'New M and L Dwarfs Confirmed with CorMASS');
 INSERT INTO "publications" VALUES(269,'2004astro.ph..7334O','Zapa04',NULL,NULL);
 INSERT INTO "publications" VALUES(270,'2010ApJ...715.1408Z','Zapa10','10.1088/0004-637X/715/2/1408','Infrared and Kinematic Properties of the Substellar Object G 196-3 B');
-INSERT INTO "publications" VALUES(271,NULL,'Reid00',NULL,NULL);
+INSERT INTO "publications" VALUES(271,'2000AJ....119..369R','Reid00','10.1086/301177','Four Nearby L Dwarfs');
 INSERT INTO "publications" VALUES(272,'2006ApJ...637.1067B','Burg06b','10.1086/498563','A Unified Near-Infrared Spectral Classification Scheme for T Dwarfs');
 INSERT INTO "publications" VALUES(273,'2008PhT....61f..70B','Burg08b','10.1063/1.2947658','Brown dwarfs: Failed stars, super Jupiters');
 INSERT INTO "publications" VALUES(274,'2007ApJ...655..522L','Lieb07','10.1086/509882','On the Nature of the Unique Hα-emitting T Dwarf 2MASS J12373919+6526148');
@@ -408,7 +408,7 @@ INSERT INTO "publications" VALUES(439,'1993SPIE.1946..667D','DePo93','10.1117/12
 INSERT INTO "publications" VALUES(440,'1999ApJ...512L..69L','Lowr99','10.1086/311858','A Candidate Substellar Companion to CD -33°7795 (TWA 5)');
 INSERT INTO "publications" VALUES(441,'2014ApJ...787....5N','Naud14','10.1088/0004-637X/787/1/5','Discovery of a Wide Planetary-mass Companion to the Young M3 Star GU Psc');
 INSERT INTO "publications" VALUES(443,'2007ApJ...656.1136S','Saum07a','10.1086/510557','Physical Parameters of Two Very Cool T Dwarfs');
-INSERT INTO "publications" VALUES(444,NULL,'Fili15',NULL,NULL);
+INSERT INTO "publications" VALUES(444,'2015ApJ...810..158F','Fili15','10.1088/0004-637X/810/2/158','Fundamental Parameters and Spectral Energy Distributions of Young and Field Age Objects with Masses Spanning the Stellar to Planetary Regime');
 INSERT INTO "publications" VALUES(445,'2009ApJ...702..154S','Step09','10.1088/0004-637X/702/1/154','The 0.8-14.5 μm Spectra of Mid-L to Mid-T Dwarfs: Diagnostics of Effective Temperature, Grain Sedimentation, Gas Transport, and Surface Gravity');
 INSERT INTO "publications" VALUES(446,'1999ApJ...517L.139L','Legg99','10.1086/312049','REVISED FLUXES FOR GLIESE 229B');
 INSERT INTO "publications" VALUES(447,'1998ApJ...492L.181S','Schu98','10.1086/311103','First Results from the Space Telescope Imaging Spectrograph: Optical Spectra of Gliese 229B');
