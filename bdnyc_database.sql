@@ -9,8 +9,8 @@ CREATE TABLE "photometry" (
 	`instrument_id`	INTEGER,
 	`publication_id`	INTEGER,
 	`epoch`	TEXT,
-	`comments`	TEXT
-);
+	`comments`	TEXT,
+	version REAL);
 CREATE TABLE "systems" (
 	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 	`name`	TEXT NOT NULL
@@ -21,8 +21,8 @@ CREATE TABLE "radial_velocities" (
 	`radial_velocity`	REAL NOT NULL,
 	`radial_velocity_unc`	REAL,
 	`spectrum_id`	INTEGER,
-	`publication_id`	INTEGER
-);
+	`publication_id`	INTEGER,
+	version REAL);
 CREATE TABLE "modes" (
 	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 	`mode`	TEXT NOT NULL
@@ -59,6 +59,8 @@ CREATE TABLE "spectra" (
 	`mode_id`	INTEGER,
 	`filename`	TEXT,
 	`comments`	TEXT,
+	version REAL,
+	local_spectrum SPECTRUM,
 	PRIMARY KEY(id)
 );
 CREATE TABLE "parallaxes" (
@@ -68,8 +70,8 @@ CREATE TABLE "parallaxes" (
 	`parallax_unc`	REAL,
 	`publication_id`	INTEGER,
 	`adopted`	INTEGER,
-	`comments`	TEXT
-);
+	`comments`	TEXT,
+	version REAL);
 CREATE TABLE "proper_motions" (
 	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 	`source_id`	INTEGER NOT NULL,
@@ -79,8 +81,8 @@ CREATE TABLE "proper_motions" (
 	`proper_motion_dec_unc`	REAL,
 	`spectrum_id`	INTEGER,
 	`publication_id`	INTEGER,
-	`comments`	TEXT
-);
+	`comments`	TEXT,
+	version REAL);
 CREATE TABLE "spectral_types" (
 	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 	`source_id`	INTEGER NOT NULL,
@@ -91,8 +93,8 @@ CREATE TABLE "spectral_types" (
 	`regime`	TEXT,
 	`publication_id`	INTEGER,
 	`comments`	TEXT,
-	`adopted`	BOOLEAN
-);
+	`adopted`	BOOLEAN,
+	version REAL);
 CREATE TABLE "sources" (
 	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 	`ra`	REAL,
@@ -104,6 +106,6 @@ CREATE TABLE "sources" (
 	`shortname`	TEXT,
 	`names`	TEXT,
 	`components`	TEXT,
-	`companions`	TEXT
-);
+	`companions`	TEXT,
+	version REAL);
 CREATE TABLE ignore (id INTEGER PRIMARY KEY, id1 INTEGER, id2 INTEGER, tablename TEXT);
