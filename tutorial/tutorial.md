@@ -63,7 +63,7 @@ While you can use pure SQL commands to interface with our database
 (eg, the sqlite3 and sqlalchemy packages for Python), 
 **astrodbkit** has a variety of tools to allow you to access the database contents with ease.
 
-![BDNYC Database](fulldatabase.png "BDNYC Database")
+![BDNYC Database](full_database.png "BDNYC Database")
 
 ## Loading the Database
 
