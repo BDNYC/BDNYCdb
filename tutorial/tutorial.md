@@ -2,6 +2,12 @@
 #### David R. Rodriguez   
 February 24, 2017   
 
+## Introduction
+
+This is a short tutorial meant for the BDNYC database and how to use astrodbkit and AstrodbWeb with it.
+You can read documentation on astrodbkit [here](http://astrodbkit.readthedocs.io/en/latest/index.html) 
+and on AstrodbWeb [here](http://www.bdnyc.org/2016/03/astrodbweb/).
+
 ## Setting Up
 
 I recommend copying the database (`bdnycdev.db`) from the Dropbox folder to 
@@ -56,6 +62,8 @@ data exist for it in other tables.
 While you can use pure SQL commands to interface with our database 
 (eg, the sqlite3 and sqlalchemy packages for Python), 
 **astrodbkit** has a variety of tools to allow you to access the database contents with ease.
+
+![BDNYC Database](fulldatabase.png "BDNYC Database")
 
 ## Loading the Database
 
@@ -116,6 +124,12 @@ Results can also be saved to a variable for use later:
 t = db.search('twa', 'sources', fetch=True)
 print(len(t))
 ```
+
+#### db.lookup()
+
+This method performs `db.search()` on a list of criteria. 
+You can use it if you have a list of sources to check or similar.   
+I personally just loop over the list and manually run `db.search()` and related queries instead.
 
 #### db.inventory()
 
@@ -404,3 +418,12 @@ When all set you should be able to double click this to open up the website and
 load the app.   
 You will have to refresh the page after a few seconds since it gets 
 opened before the app fully loads.
+
+To **close** the app you will want to do `ctrl+c` on the terminal running it to kill the process.   
+Closing the browswer will not stop the app and as long as it is running it will keep the port occupied 
+(so you won't be able to open another instance of it).   
+If you closed the terminal without killing the process, you can type `top` on a terminal window to see 
+what's running. If you find a python or python2.7 process, you can then use `kill` with the PID to 
+terminate the process. 
+If you have more than one, it may be tricky to determine which is the correct one to kill, 
+so I recommend always saving your work.
