@@ -22,7 +22,7 @@ be editing and modifying records in it.
 Worried about messing up your current version of astrodbkit and related python packages? 
 Set up an environment first!
 ```bash
-conda create -n db-tutorial python=2.7 matplotlib pandas
+conda create -n db-tutorial python=2.7 matplotlib pandas flask bokeh
 source activate db-tutorial
 pip install astrodbkit
 ```
