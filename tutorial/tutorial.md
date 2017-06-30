@@ -22,7 +22,7 @@ be editing and modifying records in it.
 Worried about messing up your current version of astrodbkit and related python packages? 
 Set up an environment first!
 ```bash
-conda create -n db-tutorial python=2.7 matplotlib pandas flask bokeh
+conda create -n db-tutorial python=2.7 matplotlib pandas
 source activate db-tutorial
 pip install astrodbkit
 ```
@@ -383,8 +383,10 @@ To run, make sure you have activate the db-tutorial environment
 (you may already be on it for purposes of this tutorial):   
 `source activate db-tutorial`
 
-Make sure you have installed the packages from requirements.txt:
-`pip install -r requirements.txt`
+You will likely need to install more packages (see [Astrodbweb requirements.txt](https://github.com/dr-rodriguez/AstrodbWeb/blob/master/requirements.txt)), including flask and bokeh:
+```bash
+conda install flask bokeh
+```
 
 And then run the `runapp.py` file with python:   
 `python runapp.py`
