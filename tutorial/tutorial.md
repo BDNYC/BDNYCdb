@@ -385,6 +385,10 @@ To run, make sure you have activate the db-tutorial environment
 
 You will likely need to install more packages (see [Astrodbweb requirements.txt](https://github.com/dr-rodriguez/AstrodbWeb/blob/master/requirements.txt)), including flask and bokeh:
 ```bash
+pip install -r requirements.txt
+```
+or:
+```bash
 conda install flask bokeh
 ```
 
