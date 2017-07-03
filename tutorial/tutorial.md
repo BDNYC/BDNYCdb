@@ -383,8 +383,14 @@ To run, make sure you have activate the db-tutorial environment
 (you may already be on it for purposes of this tutorial):   
 `source activate db-tutorial`
 
-Make sure you have installed the packages from requirements.txt:
-`pip install -r requirements.txt`
+You will likely need to install more packages (see [Astrodbweb requirements.txt](https://github.com/dr-rodriguez/AstrodbWeb/blob/master/requirements.txt)), including flask and bokeh:
+```bash
+pip install -r requirements.txt
+```
+or:
+```bash
+conda install flask bokeh
+```
 
 And then run the `runapp.py` file with python:   
 `python runapp.py`
