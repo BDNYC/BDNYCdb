@@ -32,3 +32,7 @@ INSERT INTO "telescopes" VALUES(31,'ESO VLT U3',NULL);
 INSERT INTO "telescopes" VALUES(32,'ESO VLT U4',NULL);
 INSERT INTO "telescopes" VALUES(33,'GTC',NULL);
 INSERT INTO "telescopes" VALUES(34,'ESO VLT U1',NULL);
+INSERT INTO "telescopes" VALUES(35,'MDM 2.4 m Hiltner',NULL);
+INSERT INTO "telescopes" VALUES(36,'Lick 3m Shane',NULL);
+INSERT INTO "telescopes" VALUES(37,'du Pont',NULL);
+INSERT INTO "telescopes" VALUES(38,'TILLINGHAST',NULL);
