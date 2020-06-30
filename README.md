@@ -2,7 +2,7 @@
 
 ## Getting the database
 
-To download the BDNYC Database (currently version 1.0), fork this repo or download the zip file of its contents.
+To download the BDNYC Database, fork this repo or download the zip file of its contents.
 
 Please include a reference to the [Zenodo record](http://dx.doi.org/10.5281/zenodo.45169) in all publications which make use of the database.
 
